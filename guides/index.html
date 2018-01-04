@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Get Started | Guide | ArcGIS REST JS</title>
+    
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+    
+    <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.7/css/calcite-web.min.css">
+    <link rel="stylesheet" href="/arcgis-rest-js/css/style.css">
+    
+  </head>
+  <body>
+  <!-- Drawer -->
+    <div class="drawer drawer-left js-drawer" data-drawer="top-nav" tabindex="0">
+      <nav class="drawer-nav" role="navigation">
+        <aside class="side-nav">
+          <h2 class="side-nav-title">ArcGIS REST JS</h2>
+          <a href="/arcgis-rest-js/guides/" class="side-nav-link">Guides</a>
+          <a href="/arcgis-rest-js/api/" class="side-nav-link">API Reference</a>
+        </aside>
+      </nav>
+    </div>
+
+    <div id="page" class="wrapper">
+      <!-- Sample HTML -->
+      <header class="top-nav">
+        <div class="grid-container">
+          <div class="column-24">
+            <!-- desktop sized navigation -->
+            <div class="tablet-hide">
+              <!-- logo / home -->
+              <a href="/arcgis-rest-js/" class="top-nav-title">ArcGIS REST JS</a>
+              <!-- primary navigation sections -->
+              <nav class="top-nav-list" role="navigation" aria-labelledby="topnav">
+                <a href="/arcgis-rest-js/guides/" class="top-nav-link">Guides</a>
+                <a href="/arcgis-rest-js/api/" class="top-nav-link">API Reference</a>
+              </nav>
+            </div>
+
+            <!-- tablet and mobile sized navigation -->
+            <div class="tablet-show top-nav-flex">
+              <!-- open primary navigation drawer -->
+              <nav class="top-nav-flex-list" role="navigation" aria-labelledby="topnav">
+                <a href="/arcgis-rest-js/" class="icon-ui-menu top-nav-link js-drawer-toggle" data-drawer="top-nav"><span class="phone-hide">Menu</span></a>
+              </nav>
+              <!-- logo / home -->
+              <header class="top-nav-flex-title">
+                <a href="/arcgis-rest-js/" class="top-nav-link">ArcGIS REST API JavaScript Client</a>
+              </header>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+
+      <main id="#skip-to-content">
+        
+  <div class="grid-container trailer-1 leader-1">
+    <div class="column-6">
+      <ul class="list-plain">
+        
+          <li>Introduction</li>
+          <ul class="list-plain margin-left-1">
+            
+              <li><a href="/arcgis-rest-js/guides/package-overview/">Package Overview</a></li>
+            
+          </ul>
+        
+          <li>Get Started</li>
+          <ul class="list-plain margin-left-1">
+            
+              <li><a href="/arcgis-rest-js/guides/from-a-cdn/">From a CDN</a></li>
+            
+              <li><a href="/arcgis-rest-js/guides/babel-and-webpack/">Babel + WebPack</a></li>
+            
+              <li><a href="/arcgis-rest-js/guides/typescript-and-webpack/">TypeScript + WebPack</a></li>
+            
+              <li><a href="/arcgis-rest-js/guides/amd-requirejs-dojo/">AMD (Require.js or Dojo)</a></li>
+            
+              <li><a href="/arcgis-rest-js/guides/node/">Node.js</a></li>
+            
+              <li><a href="/arcgis-rest-js/guides/babel-and-rollup/">Babel + Rollup</a></li>
+            
+              <li><a href="/arcgis-rest-js/guides/browserify/">Browserify</a></li>
+            
+          </ul>
+        
+          <li>Authentication</li>
+          <ul class="list-plain margin-left-1">
+            
+              <li><a href="/arcgis-rest-js/guides/browser-authentication/">Browser-based OAuth 2.0</a></li>
+            
+              <li><a href="/arcgis-rest-js/guides/server-authentication/">Server-based OAuth 2.0</a></li>
+            
+              <li><a href="/arcgis-rest-js/guides/client-server-authentication/">Shared client server authentication</a></li>
+            
+              <li><a href="/arcgis-rest-js/guides/cli-authentication/">Authentication for CLI Apps</a></li>
+            
+          </ul>
+        
+      </ul>
+    </div>
+
+    <div class="column-18">
+      <div class="panel">
+        <h1>Get Started</h1>
+<p>ArcGIS REST JS can be deployed with variety of build tools, including:</p>
+<ul>
+<li><a href="./from-a-cdn/">From a CDN</a> (Coming soon)</li>
+<li><a href="./babel-and-webpack/">Babel + WebPack</a> (Coming soon)</li>
+<li><a href="./typescript-and-webpack/">TypeScript + WebPack</a> (Coming soon)</li>
+<li><a href="amd-requirejs-dojo/">AMD (Require.js or Dojo)</a> (Coming soon)</li>
+<li><a href="./node/">Node.js</a> (Coming soon)</li>
+<li><a href="./babel-and-rollup/">Babel + Rollup</a> (Coming soon)</li>
+<li><a href="./browserify/">Browserify</a> (Coming soon)</li>
+</ul>
+<h2>Requirements</h2>
+<p>ArcGIS REST JS takes advantage of web standards that are supported in all modern desktop browsers and most mobile browsers.</p>
+<ul>
+<li><a href="https://caniuse.com/#feat=fetch"><code>Fetch</code> Support</a></li>
+<li><a href="https://caniuse.com/#feat=promises"><code>Promises</code> Support</a></li>
+<li><a href="https://caniuse.com/#feat=xhr2"><code>FormData</code> Support</a></li>
+<li><a href="https://caniuse.com/#feat=es5"><code>ECMAScript 5</code> Support</a></li>
+</ul>
+<h2>Browser Support</h2>
+<p>ArcGIS REST JS is supported in the same browsers as the <a href="https://developers.arcgis.com/javascript/latest/guide/system-requirements/index.html#supported-browsers">ArcGIS API for JavaScript</a>.</p>
+<ul>
+<li>Chrome</li>
+<li>Edge</li>
+<li>Firefox</li>
+<li>Safari 9 and later</li>
+<li>iOS Safari</li>
+<li>IE11</li>
+</ul>
+<p>IE11 and older mobile browsers require polyfills.</p>
+<ul>
+<li><a href="https://github.com/stefanpenner/es6-promise"><code>Promise</code> polyfill</a></li>
+<li><a href="https://github.com/matthew-andrews/isomorphic-fetch"><code>Fetch</code> polyfill</a></li>
+</ul>
+<h2>Node.js Support</h2>
+<p>ArcGIS REST JS is supported in Node.js 6.x and 8.x. It requires additional packages to polyfill <code>Fetch</code> and <code>FormData</code>.</p>
+<p>We recommend the ones below:</p>
+<ul>
+<li><a href="https://www.npmjs.com/package/isomorphic-fetch"><code>isomorphic-fetch</code></a> - to polyfill <code>Fetch</code></li>
+<li><a href="https://github.com/form-data/isomorphic-form-data"><code>isomorphic-form-data</code></a> - to polyfill <code>FormData</code></li>
+</ul>
+<p>Other versions of Node.js may also work with appropriate polyfills but we cannot guarantee support.</p>
+<h2>Get started from CDN</h2>
+<p>ArcGIS REST JS is hosted on <a href="https://unpkg.com/">unpkg</a>. You can find URLs for individual packages in the <a href="../api">API reference</a>.</p>
+<pre><code class="html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"utf-8"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>ArcGIS REST JS<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  Open your console to see the demo.
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- require polyfills for fetch and Promise from https://polyfill.io --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://cdn.polyfill.io/v2/polyfill.js?features=es5,Promise,fetch"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- require ArcGIS REST JS libraries from https://unpkg.com --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/@esri/arcgis-rest-request@1.0.2/dist/umd/arcgis-rest-request.umd.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-comment">// when including ArcGIS REST JS all exports are available from an arcgisRest global</span>
+    arcgisRest.request(<span class="hljs-string">"https://www.arcgis.com/sharing/rest/info"</span>).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+      <span class="hljs-built_in">console</span>.log(response);
+    });
+  </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<h2>Get started with a bundler (webpack, rollup, ect…)</h2>
+<p>ArcGIS REST JS is ready-to-use with popular module bundlers like <a href="https://webpack.js.org/">webpack</a> and <a href="https://rollupjs.org/">rollup</a>. Make sure you also install the polyfills for <a href="https://github.com/matthew-andrews/isomorphic-fetch"><code>fetch</code></a> and <a href="https://github.com/stefanpenner/es6-promise"><code>Promise</code></a>. You can find <code>npm install</code> commands for all packages in the <a href="../api">API reference</a>.</p>
+<pre><code class="bash">npm install @esri/arcgis-rest-request isomorphic-fetch es6-promise
+</code></pre>
+<p>Import the <code>isomorphic-fetch</code> and <code>es6-promise</code> polyfills before using ArcGIS REST JS.</p>
+<pre><code class="js"><span class="hljs-keyword">import</span> <span class="hljs-string">"isomorphic-fetch"</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">"es6-promise"</span>;
+
+<span class="hljs-keyword">import</span> { request } <span class="hljs-keyword">from</span> <span class="hljs-string">"@esri/arcgis-rest-request"</span>;
+
+request(<span class="hljs-string">"https://www.arcgis.com/sharing/rest/info"</span>).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+  <span class="hljs-built_in">console</span>.log(response);
+});
+</code></pre>
+<p><strong>Note</strong>: many other libraries or tools (such as <a href="https://babeljs.io/docs/usage/polyfill/">Babel</a>) require an ES6 <code>Promise</code> polyfill. Any <code>Promise</code> polyfill will work with ArcGIS REST JS, <code>es6-promise</code> is simply a lightweight standalone version.</p>
+<h2>Get started with Node.js</h2>
+<p>Make sure you have polyfills for <a href="https://github.com/matthew-andrews/isomorphic-fetch"><code>fetch</code></a> and <a href="https://github.com/form-data/isomorphic-form-data"><code>FormData</code></a> installed before using any ArcGIS REST JS library. You can find <code>npm install</code> commands for all packages in the <a href="../api">API reference</a>.</p>
+<pre><code class="bash">npm install @esri/arcgis-rest-request isomorphic-fetch isomorphic-form-data
+</code></pre>
+<p>Require the <code>isomorphic-fetch</code> and <code>isomorphic-form-data</code> modules before using any of the ArcGIS REST JS methods.</p>
+<pre><code class="js"><span class="hljs-built_in">require</span>(<span class="hljs-string">"isomorphic-fetch"</span>);
+<span class="hljs-built_in">require</span>(<span class="hljs-string">"isomorphic-form-data"</span>);
+
+<span class="hljs-keyword">const</span> { request } = <span class="hljs-built_in">require</span>(<span class="hljs-string">"@esri/arcgis-rest-request"</span>);
+
+request(<span class="hljs-string">"https://www.arcgis.com/sharing/rest/info"</span>).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+  <span class="hljs-built_in">console</span>.log(response);
+});
+</code></pre>
+<p><a href="https://github.com/Esri/arcgis-rest-js/tree/master/demos/express">Demo express application</a></p>
+      </div>
+    </div>
+  </div>
+
+      </main>
+    </div>
+
+    <footer class="footer leader-1">
+      
+      <div class="grid-container">
+        <div class="column-24 trailer-half">
+          <a href="https://github.com/Esri/arcgis-rest-js" class="font-size--1">Fork this project on GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.7/js/calcite-web.min.js"></script>
+
+    <script>
+       calcite.init()
+    </script>
+
+    
+  </body>
+</html>
