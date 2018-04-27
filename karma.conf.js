@@ -18,6 +18,17 @@ module.exports = function(config) {
     exclude: [],
 
     karmaTypescriptConfig: {
+      coverageOptions: {
+        threshold: {
+          global: {
+            statements: 95,
+            branches: 95,
+            functions: 95,
+            lines: 95
+          }
+        }
+      },
+
       reports: {
         lcovonly: "coverage",
         html: "coverage",
@@ -41,11 +52,6 @@ module.exports = function(config) {
             }, {})
         }
       }
-    },
-
-    coverageReporter: {
-      type: 'lcov',
-      dir: 'coverage/'
     },
 
     // preprocess matching files before serving them to the browser
