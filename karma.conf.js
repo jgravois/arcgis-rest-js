@@ -18,6 +18,11 @@ module.exports = function(config) {
     exclude: [],
 
     karmaTypescriptConfig: {
+      reports: {
+        lcovonly: "coverage",
+        html: "coverage",
+        text: ""
+      },
       compilerOptions: {
         module: "commonjs"
       },
@@ -34,19 +39,6 @@ module.exports = function(config) {
               alias[`@esri/${p}`] = `packages/${p}/src/index.ts`;
               return alias;
             }, {})
-        }
-      }
-    },
-
-    coverageReporter: {
-      type: 'lcov',
-      dir: 'coverage/',
-      check: {
-        global: {
-          statements: 95,
-          branches: 95,
-          functions: 95,
-          lines: 95
         }
       }
     },
