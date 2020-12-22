@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- load arcgis rest -->
+<script type="module">
+  import { request } from '/node_modules/@esri/arcgis-rest-request/dist/flat-esm/request.esm.js';
+
+  async function go () {
+    const response = await request("https://www.arcgis.com/sharing/rest/info")
+    console.log(response)
+  }
+
+  go()
+</script>
+</body>
+</html>
